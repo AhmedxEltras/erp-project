@@ -1,0 +1,34 @@
+# Controllers
+touch app/controllers/TransactionController.php
+touch app/controllers/InvoiceController.php
+touch app/controllers/ReportController.php
+
+# Models
+touch app/models/Transaction.php
+touch app/models/Invoice.php
+touch app/models/Report.php
+
+# Views (Transactions)
+touch app/views/transactions/add.php
+touch app/views/transactions/view.php
+touch app/views/transactions/report.php
+
+# Views (Invoices)
+touch app/views/invoices/add_invoice.php
+touch app/views/invoices/view_invoices.php
+touch app/views/invoices/update_invoice.php
+
+# Views (Reports)
+touch app/views/reports/income_report.php
+touch app/views/reports/expense_report.php
+touch app/views/reports/summary_report.php
+
+# Config
+touch app/config/settings.php
+
+# Public Files
+touch public/index.php
+
+# Assets (CSS & JS)
+touch public/assets/css/style.css
+touch public/assets/js/scripts.js
